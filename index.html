@@ -28,6 +28,22 @@
     <link rel="stylesheet" type="text/css" href="http://permac.fr/stylesheets/stylesheet.css" media="screen">
     <meta name="google" content="notranslate"/>
     <meta name="google-site-verification" content="v6ipTBizziA3Hs8k58ZV4oS9lIA7OLsujE7bfcNjU2I"/>
+    <style>
+        .google-maps {
+            position: relative;
+            padding-bottom: 75%;
+        / / This is the aspect ratio height: 0;
+            overflow: hidden;
+        }
+
+        .google-maps iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
 </head>
 <body id="top">
 <div class="navbar-wrapper clear-fix">
@@ -60,7 +76,8 @@
                         <a title="l&rsquo;équipe de permac" href="http://permac.fr/#team">Notre équipe</a></li>
                     <li id="menu-item-38"
                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-38">
-                        <a title="Zone d&rsquo;activité permac peinture" href="http://permac.fr/#zones">Zone d&rsquo;activité</a></li>
+                        <a title="Zone d&rsquo;activité permac peinture" href="http://permac.fr/#zones">Zone d&rsquo;activité</a>
+                    </li>
                     <li id="menu-item-39"
                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-39">
                         <a title="contact" href="http://permac.fr/#contact">Contact</a></li>
@@ -262,7 +279,6 @@
     </div>
 </section>
 
-
 <section id="zones" class="container features">
     <div class="row">
         <div class="col-lg-12 text-center">
@@ -274,9 +290,12 @@
     </div>
     <div class="row">
         <div class="col-lg-6">
-            <img src="images/zone-activite.jpg" alt="carte" class="img-responsive">
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92396.01458524815!2d3.771435092210845!3d43.64035626117625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6aeb76030ada9%3A0x30aced00f8ff850e!2sPermac!5e0!3m2!1sfr!2sfr!4v1460624231015"
+                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-lg-6 text-justify">
+        <div class="col-lg-6 text-left">
             <p>Nous intervenons principalement sur la région de Montpellier et de ses environs. Ponctuellement nous
                 savons également nous déplacer plus loin en fonction des chantiers et des besoins particuliers.</p>
 
