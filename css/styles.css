@@ -1,0 +1,149 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en");
+
+body {
+  color: #676a6c;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.navy {
+  color: #ce2c2a;
+}
+
+h1.navy {
+  margin-bottom: 2em;
+}
+
+.mt-4 {
+  margin-top: 4em;
+}
+
+.mb-4 {
+  margin-bottom: 4em;
+}
+
+p.text-color {
+  color: #676a6c;
+}
+
+a.navy-link {
+  color: #ce2c2a;
+  text-decoration: none;
+}
+
+a.navy-link:hover {
+  color: #e47b7a;
+}
+
+section {
+  padding-top: 50px;
+}
+
+section p {
+  color: #7b7b7b;
+  font-size: 14px;
+}
+
+.footer {
+  padding: 5em 0;
+}
+
+.footer__legals p {
+  font-size: 12px;
+}
+
+address {
+  font-size: 18px;
+}
+
+.navy-line {
+  width: 60px;
+  height: 1px;
+  margin: 3em auto;
+  border-bottom: 2px solid #ce2c2a;
+}
+
+small {
+  color: #ce2c2a;
+}
+
+.navbar {
+  margin-bottom: 0;
+  padding: 10px 0;
+}
+
+.hero {
+  background: url("../images/header.png") repeat 0 0;
+}
+
+.hero,
+.hero p {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 38px;
+  text-transform: uppercase;
+  text-shadow: none;
+  letter-spacing: -1.5px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 100px;
+
+    padding-bottom: 140px;
+  }
+}
+
+.thumbnail {
+  border: none;
+  box-shadow: none;
+}
+
+.gray-section {
+  background: #f4f4f4;
+  margin-top: 60px;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #ce2c2a;
+  border-color: #ce2c2a;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: #e47b7a;
+  border-color: #e47b7a;
+  color: #ffffff;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
