@@ -64,7 +64,7 @@ address {
 .navy-line {
   width: 60px;
   height: 1px;
-  margin: 3em auto;
+  margin: 8em auto 6em;
   border-bottom: 2px solid #ce2c2a;
 }
 
@@ -78,12 +78,12 @@ small {
 }
 
 .hero {
-  background: url("../images/header.png") repeat 0 0;
+  background: url("../images/pattern.png") repeat 0 0;
 }
 
 .hero,
 .hero p {
-  color: white;
+  color: #333;
   font-weight: 700;
   text-transform: uppercase;
   text-shadow: none;
@@ -146,4 +146,8 @@ small {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   background-image: none;
+}
+
+.img-center {
+  margin: 0 auto;
 }
